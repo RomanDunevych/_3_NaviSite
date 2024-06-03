@@ -1,0 +1,602 @@
+body {
+    background-color: #272525;
+}
+
+h2 {
+    font-weight: 300;
+}
+
+.container {
+    margin: 0px 34px;
+}
+
+.header-line {
+    padding-top: 45px;
+    padding-left: 260px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-home { 
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    color: #fff;
+    text-decoration: none;
+    margin-right: 32px;
+    transition: color 0.3s linear;
+}
+
+.nav-home:hover {
+    color: yellow;
+}
+
+.nav {
+    margin-left: 350px;
+}
+
+.nav-item {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 350;
+    font-style: normal;
+    color: #fff;
+    text-decoration: none;
+    margin-right: 32px;
+    transition: color 0.3s linear;
+}
+
+.nav-item:hover {
+    color: yellow;
+}
+
+.cup-logo {
+    position: absolute;
+    top: 37px;
+    left: 70px;
+}
+
+.cup-text{
+    position: absolute;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    top: 30px;
+    left: 170px;
+    color: white;
+}
+
+.logo-strip {
+    position: absolute;
+    margin: 0px 100px;
+    width: 0px;
+    height: 61px;
+    border: 1.5px solid #FFFFFF;
+    left: 50px;
+    top: 30px;
+}
+
+.bt-eu {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    position: absolute;
+    color: white;
+    left: 1180px;
+    top: 40px;
+    border: 3px solid white;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    padding: 14px 14px;
+    transition: background-color 0.3s linear;
+}
+
+.bt-eu:hover {
+    background-color: white;
+    color: black;
+}
+
+.title {
+    font-family: "Montserrat", sans-serif;
+    margin-top: 230px;
+    margin-left: 200px;
+    color: #fff;
+}
+
+.subline1 {
+    width: 700px;
+    margin-left: -175px;
+}
+
+.subline2 {
+    position: absolute;
+    width: 700px;
+    margin-left: 24.5px;
+    top: 700px;
+}
+
+.border-cart {
+    position: absolute;
+    font-family: "Montserrat", sans-serif;
+    border: 2px white solid;
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+    left: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.subcard-text1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    margin-top: 50px;
+}
+
+.date1 {
+    font-family: "Montserrat", sans-serif;
+    color: grey;
+    font-size: 12px;
+}
+
+.img1 {
+    margin-left: -10px;
+}
+
+.border-cart2 {
+    position: absolute;
+    font-family: "Montserrat", sans-serif;
+    border: 2px white solid;
+    text-align: center;
+    margin-left: 350px;
+    margin-top: 10px;
+    color: white;
+    left: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.subcard-text1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    margin-top: 50px;
+}
+
+.date2 {
+    font-family: "Montserrat", sans-serif;
+    color: grey;
+    font-size: 12px;
+}
+
+.img2 {
+    margin-left: -10px;
+}
+
+.cals-game {
+    position: absolute;
+    left: 132px;
+    top: 182px;
+}
+
+.clas-game1 {
+    position: absolute;
+    left: 136px;
+    top: 180px;
+}
+
+.news-aside {
+    margin-left: 800px;
+}
+
+.news-title {
+    position: absolute;
+    font-family: "Montserrat", sans-serif;
+    color: #fff;
+    left: 980px;
+    top: 282px;
+}
+
+.news-line {
+    margin-left: -110px;
+    width: 300px;
+}
+
+.news-image1 {
+    position: absolute;
+    top: 383px;
+    left: 820px;
+}
+
+.info1 {
+    position: absolute;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 9.5px;
+    top: 400px;
+    left: 995px;
+    color: grey;
+}
+
+.news-title1 {
+    position: absolute;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    top: 420px;
+    left: 995px;
+    font-weight: bold;
+    color: black;
+}
+
+.news-subtitle {
+    position: absolute;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 9.5px;
+    top: 465px;
+    left: 995px;
+    color: grey;
+}
+
+.messege-box1 {
+    position: absolute;
+    top: 480px;
+    left: 995px;
+}
+
+.messege-text1 {
+    position: absolute;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    top: 480px;
+    left: 1020px;
+}
+
+.news-image2 {
+    position: absolute;
+    top: 540px;
+    left: 820px;
+}
+
+.info2 {
+    position: absolute;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 9.5px;
+    top: 558px;
+    left: 995px;
+    color: grey;
+}
+
+.news-title2 {
+    position: absolute;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    top: 578px;
+    left: 995px;
+    font-weight: bold;
+    color: black;
+}
+
+.news-subtitle2 {
+    position: absolute;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 9.5px;
+    top: 623px;
+    left: 995px;
+    color: grey;
+}
+
+.messege-box2 {
+    position: absolute;
+    top: 640px;
+    left: 995px;
+}
+
+.messege-text2 {
+    position: absolute;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    top: 640px;
+    left: 1020px;
+}
+
+.news-image3 {
+    position: absolute;
+    top: 695px;
+    left: 820px;
+}
+
+.info3 {
+    position: absolute;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 9.5px;
+    top: 715px;
+    left: 995px;
+    color: grey;
+}
+
+.news-title3 {
+    position: absolute;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    top: 735px;
+    left: 995px;
+    font-weight: bold;
+    color: black;
+}
+
+.news-subtitle3 {
+    position: absolute;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 9.5px;
+    top: 780px;
+    left: 995px;
+    color: grey;
+}
+
+.messege-box3 {
+    position: absolute;
+    top: 795px;
+    left: 995px;
+}
+
+.messege-text3 {
+    position: absolute;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    top: 795px;
+    left: 1020px;
+}
+
+.news-image4 {
+    position: absolute;
+    top: 845px;
+    left: 820px;
+}
+
+.info4 {
+    position: absolute;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 9.5px;
+    top: 865px;
+    left: 995px;
+    color: grey;
+}
+
+.news-title4 {
+    position: absolute;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    top: 885px;
+    left: 995px;
+    font-weight: bold;
+    color: black;
+}
+
+.news-subtitle4 {
+    position: absolute;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 9.5px;
+    top: 930px;
+    left: 995px;
+    color: grey;
+}
+
+.messege-box4 {
+    position: absolute;
+    top: 945px;
+    left: 995px;
+}
+
+.messege-text4 {
+    position: absolute;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    top: 945px;
+    left: 1020px;
+}
+
+.footer {
+    background-color: #000;
+    margin-top: 80px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+.title-footer {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: -20px;
+    margin-left: 50px;
+    color: #fff;
+}
+
+.footer-menu {  
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 50px;
+    display: flex;
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-menu:hover {
+    color: #FFEE00; 
+}
+
+.footer-cs {
+    margin-left: 50px;
+    margin-top: 60px;
+}
+
+.footer-dota {
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 58px;
+}
+
+.footer-brawl {
+    position: absolute;
+    margin-left: 63px;
+    margin-top: 59px;
+}
+
+.footer-league {
+    position: absolute;
+    margin-top: 55px;
+    margin-left: 113px;
+}
+
+.footer-left {
+    display: flex;
+    margin-top: -50px;
+    margin-left: 950px;
+}
+
+.strip {
+    width: 0px;
+    height: 40px;
+    margin-left: 15px;
+    border: 1.5px solid #FFFFFF;
+}
+
+.strip-title {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 10px ;
+    color: #fff;
+}
+
+.instagram {
+    margin-left: 320px;
+    margin-top: -45px;
+}
+
+.inst-title {
+    font-family: "Montserrat", sans-serif;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.inst-title:hover {
+    color: #FFEE00;
+}
+
+.twitter {
+    margin-left: 475px;
+    margin-top: -45px;
+}
+
+.twit-title {
+    font-family: "Montserrat", sans-serif;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.twit-title:hover {
+    color: #FFEE00;
+}
+
+.telegram {
+    margin-left: 600px;
+    margin-top: -45px; 
+}
+
+.teleg-title {
+    font-family: "Montserrat", sans-serif;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.teleg-title:hover {
+    color: #FFEE00;
+}
+
+.tiktok {
+    margin-left: 740px;
+    margin-top: -45px;
+}
+
+.tiktok-title {
+    font-family: "Montserrat", sans-serif;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.tiktok-title:hover {   
+    color: #FFEE00;
+}
+
+.steam {
+    margin-left: 860px;
+    margin-top: -45px;
+}
+
+.steam-title {
+    font-family: "Montserrat", sans-serif;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.steam-title:hover {
+    color: #FFEE00;
+}
+
+.discord {
+    margin-left: 980px;
+    margin-top: -45px;
+}
+
+.disk-title {
+    font-family: "Montserrat", sans-serif;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.disc-title:hover {
+    color: #FFEE00;
+}

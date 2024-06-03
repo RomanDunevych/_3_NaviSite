@@ -1,0 +1,498 @@
+body {
+    background-color: #272525;
+}
+
+.container {
+    margin: 0px 34px;
+}
+
+.header-line {
+    padding-top: 45px;
+    padding-left: 260px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navi-logo {
+    position: absolute;
+    top: 37px;
+    left: 45px;
+}
+
+.navi-text{
+    position: absolute;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    top: 30px;
+    left: 170px;
+    color: white;
+}
+
+.logo-strip {
+    position: absolute;
+    margin: 0px 100px;
+    width: 0px;
+    height: 61px;
+    border: 1.5px solid #FFFFFF;
+    left: 50px;
+    top: 30px;
+}
+
+.nav {
+    margin-left: 700px;
+}
+
+.nav-home { 
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    color: #fff;
+    text-decoration: none;
+    margin-right: 32px;
+    transition: color 0.3s linear;
+}
+
+.nav-home:hover {
+    color: yellow;
+}
+
+.nav-item {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 350;
+    font-style: normal;
+    color: #fff;
+    text-decoration: none;
+    margin-right: 32px;
+    transition: color 0.3s linear;
+}
+
+.nav-item:hover {
+    color: yellow;
+}
+
+.bt-eu {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    position: absolute;
+    color: white;
+    left: 1180px;
+    top: 40px;
+    border: 3px solid white;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    padding: 14px 14px;
+    transition: background-color 0.3s linear;
+}
+
+.bt-eu:hover {
+    background-color: white;
+    color: black;
+}
+
+.title1 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    margin-top: 250px;
+    display: flex;
+    justify-content: center;
+}
+
+.text1 {
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    color: #fff;
+    width: 800px;
+}
+
+.title2 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.text2 {
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    color: #fff;
+    width: 800px;
+}
+
+.title3{
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.text3 {
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    color: #fff;
+    width: 800px;
+}
+
+.title4 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.text4 {
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    color: #fff;
+    width: 800px;
+}
+
+.title5 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.text5 {
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    color: #fff;
+    width: 800px;
+}
+
+.title6 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.text6 {
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    color: #fff;
+    width: 800px;
+}
+
+.title7 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.text7 {
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    color: #fff;
+    width: 800px;
+}
+
+.title8 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.text8{
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    color: #fff;
+    width: 800px;
+}
+
+.title9 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.text9{
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    color: #fff;
+    width: 800px;
+}
+
+.title10 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.text10 {
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    color: #fff;
+    width: 800px;
+}
+
+.title11 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.text11 {
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    color: #fff;
+    width: 800px;
+}
+
+
+.footer {
+    background-color: #000;
+    margin-top: 250px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+.title-footer {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: -20px;
+    margin-left: 50px;
+    color: #fff;
+}
+
+.footer-menu {  
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 50px;
+    display: flex;
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-menu:hover {
+    color: #FFEE00; 
+}
+
+.footer-cs {
+    margin-left: 50px;
+    margin-top: 60px;
+}
+
+.footer-dota {
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 58px;
+}
+
+.footer-brawl {
+    position: absolute;
+    margin-left: 63px;
+    margin-top: 59px;
+}
+
+.footer-league {
+    position: absolute;
+    margin-top: 55px;
+    margin-left: 113px;
+}
+
+.footer-left {
+    display: flex;
+    margin-top: -50px;
+    margin-left: 950px;
+}
+
+.strip {
+    width: 0px;
+    height: 40px;
+    margin-left: 15px;
+    border: 1.5px solid #FFFFFF;
+}
+
+.strip-title {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 10px ;
+    color: #fff;
+}
+
+.instagram {
+    margin-left: 320px;
+    margin-top: -45px;
+}
+
+.inst-title {
+    font-family: "Montserrat", sans-serif;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.inst-title:hover {
+    color: #FFEE00;
+}
+
+.twitter {
+    margin-left: 475px;
+    margin-top: -45px;
+}
+
+.twit-title {
+    font-family: "Montserrat", sans-serif;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.twit-title:hover {
+    color: #FFEE00;
+}
+
+.telegram {
+    margin-left: 600px;
+    margin-top: -45px; 
+}
+
+.teleg-title {
+    font-family: "Montserrat", sans-serif;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.teleg-title:hover {
+    color: #FFEE00;
+}
+
+.tiktok {
+    margin-left: 740px;
+    margin-top: -45px;
+}
+
+.tiktok-title {
+    font-family: "Montserrat", sans-serif;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.tiktok-title:hover {   
+    color: #FFEE00;
+}
+
+.steam {
+    margin-left: 860px;
+    margin-top: -45px;
+}
+
+.steam-title {
+    font-family: "Montserrat", sans-serif;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.steam-title:hover {
+    color: #FFEE00;
+}
+
+.discord {
+    margin-left: 980px;
+    margin-top: -45px;
+}
+
+.disk-title {
+    font-family: "Montserrat", sans-serif;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.disc-title:hover {
+    color: #FFEE00;
+}
